@@ -69,8 +69,7 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "options": {
-          },
+          "options": {},
           "configurations": {
             "production": {
               "browserTarget": "ngx-sortablejs-app:build:production"
@@ -118,6 +117,15 @@
             }
           },
           "defaultConfiguration": "development"
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     },
@@ -141,6 +149,15 @@
             "main": "projects/ngx-sortablejs/src/test.ts",
             "tsConfig": "projects/ngx-sortablejs/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-sortablejs/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/ngx-sortablejs/**/*.ts",
+              "projects/ngx-sortablejs/**/*.html"
+            ]
           }
         }
       }

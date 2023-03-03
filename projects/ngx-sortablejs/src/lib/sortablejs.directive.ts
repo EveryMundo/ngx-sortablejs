@@ -35,6 +35,7 @@ const getIndexesFromEvent = (event: SortableEvent) => {
 };
 
 @Directive({
+  // eslint-disable-next-line @angular-eslint/directive-selector
   selector: '[sortablejs]',
 })
 export class SortablejsDirective implements OnInit, OnChanges, OnDestroy {
