@@ -40,7 +40,7 @@ import { TestCasesModule } from './test-cases/test-cases.module';
         path: 'tests/cross-components-multiple-list',
         component: CrossComponentsMultipleListsComponent,
     },
-], { relativeLinkResolution: 'legacy' }),
+], {}),
 
     // global settings
     SortablejsModule.forRoot({
