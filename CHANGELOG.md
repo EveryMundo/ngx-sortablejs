@@ -1,3 +1,10 @@
+## [11.6.1](https://github.com/EveryMundo/ngx-sortablejs/compare/v11.6.0...v11.6.1) (2024-04-01)
+
+
+### Bug Fixes
+
+* Added several dependency's security updates ([718ae19](https://github.com/EveryMundo/ngx-sortablejs/commit/718ae199f6ea8941d512c3f9f0ea20d72e46474f))
+
 # [11.6.0](https://github.com/EveryMundo/ngx-sortablejs/compare/v11.5.0...v11.6.0) (2024-04-01)
 
 
