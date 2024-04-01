@@ -72,10 +72,10 @@
           "options": {},
           "configurations": {
             "production": {
-              "browserTarget": "ngx-sortablejs-app:build:production"
+              "buildTarget": "ngx-sortablejs-app:build:production"
             },
             "development": {
-              "browserTarget": "ngx-sortablejs-app:build:development"
+              "buildTarget": "ngx-sortablejs-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-sortablejs-app:build"
+            "buildTarget": "ngx-sortablejs-app:build"
           }
         },
         "test": {
