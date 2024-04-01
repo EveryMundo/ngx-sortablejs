@@ -1,3 +1,10 @@
+# [11.6.0](https://github.com/EveryMundo/ngx-sortablejs/compare/v11.5.0...v11.6.0) (2024-04-01)
+
+
+### Features
+
+* Migrated to angular v17. ([63e8901](https://github.com/EveryMundo/ngx-sortablejs/commit/63e89012e94e72390fcd40a9d958ab7a54812301))
+
 # [11.5.0](https://github.com/EveryMundo/ngx-sortablejs/compare/v11.4.2...v11.5.0) (2024-04-01)
 
 
