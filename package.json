@@ -12,11 +12,11 @@
     "test:lib:ci": "ng test ngx-sortablejs --watch=false --progress=false --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
     "gh-pages": "git reset && cpr dist/ngx-sortablejs-app/browser docs -d  && cpr docs/index.html docs/404.html && git add docs",
-    "gh-pages:apply": "yarn run gh-pages && git commit -m 'docs: update github pages' && git push",
-    "validate-release": "yarn run lint && yarn run test:app:ci && yarn run test:lib:ci",
-    "prepare-release": "yarn run build:lib && cpr README.md dist/ngx-sortablejs/README.md  && cpr LICENSE.md dist/ngx-sortablejs/LICENSE.md  && yarn run build:app",
-    "release": "yarn run validate-release && yarn run prepare-release && semantic-release -d",
-    "release:apply": "yarn run validate-release && yarn run prepare-release && semantic-release --ci false"
+    "gh-pages:apply": "npm run gh-pages && git commit -m 'docs: update github pages' && git push",
+    "validate-release": "npm run lint && npm run test:app:ci && npm run test:lib:ci",
+    "prepare-release": "npm run build:lib && cpr README.md dist/ngx-sortablejs/README.md  && cpr LICENSE.md dist/ngx-sortablejs/LICENSE.md  && yarn run build:app",
+    "release": "npm run validate-release && npm run prepare-release && semantic-release -d",
+    "release:apply": "npm run validate-release && npm run prepare-release && semantic-release --ci false"
   },
   "private": true,
   "dependencies": {
