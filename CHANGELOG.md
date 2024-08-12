@@ -1,3 +1,17 @@
+# [11.7.0](https://github.com/EveryMundo/ngx-sortablejs/compare/v11.6.1...v11.7.0) (2024-08-12)
+
+
+### Bug Fixes
+
+* Changed yarn commands for npm commands in package.json ([2b1898f](https://github.com/EveryMundo/ngx-sortablejs/commit/2b1898ff283534df8a92310a68699b0fc743bbbd))
+* Updated gh-pages npm command. ([c2d6e75](https://github.com/EveryMundo/ngx-sortablejs/commit/c2d6e753de3483953e2eb685c471917b94da5565))
+* Updated links for documentation. ([1df2f3e](https://github.com/EveryMundo/ngx-sortablejs/commit/1df2f3e32fe82db86e2e944741dc711807bee3f7))
+
+
+### Features
+
+* Migrated to Angular v18 ([487bf93](https://github.com/EveryMundo/ngx-sortablejs/commit/487bf937e8301b30153b1b2eb37cd3fc61badc3a))
+
 ## [11.6.1](https://github.com/EveryMundo/ngx-sortablejs/compare/v11.6.0...v11.6.1) (2024-04-01)
 
 
